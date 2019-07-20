@@ -1,0 +1,5 @@
+http://aobako.netlify.com/*  https://aobako.net/:splat  301!
+https://aobako.netlify.com/*  https://aobako.net/:splat  301!
+http://aobako.net/*  https://aobako.net/:splat  301!
+http://www.aobako.net/*  https://aobako.net/:splat  301!
+https://www.aobako.net/*  https://aobako.net/:splat  301!
