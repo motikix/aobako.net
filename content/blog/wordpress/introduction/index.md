@@ -1,5 +1,6 @@
 ---
 title: エックスサーバーで WordPress を始めるまでにやったこと
+description: 自身のドメインでブログを持ちたい！ そんな思いつきから勢いでエックスサーバーに WordPress でブログを構築したその道のりをゆるく解説します。
 date: 2018-04-17 01:05:24
 categories:
   - WordPress

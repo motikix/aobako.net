@@ -1,5 +1,6 @@
 ---
 title: eslint & prettier で javascript のコードを常にきれいに
+description: チーム開発におけるコードの構文チェッカの eslint 。フォーマッタの prettier の導入方法について触れてみます。
 date: 2018-07-24 01:24:36
 categories:
   - JavaScript

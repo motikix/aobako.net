@@ -1,5 +1,6 @@
 ---
 title: WordPress も Markdown でラフに書こうよ
+description: Qiita、はてブメインで技術ブログを書いていた僕が WordPress にきて Markdown で記事を書くために導入したプラグインを紹介します。
 date: 2018-04-22 23:34:46
 categories:
   - WordPress

@@ -1,5 +1,6 @@
 ---
 title: mobx で react の状態管理と闘う
+description: react の状態管理におけるデファクトスタンダードといえば redux ですが、取っ掛かりとしては学習コストが高いと感じます。 今回はシンプルなコードで記述できる、mobx を紹介します。
 date: 2018-05-06 11:16:29
 categories:
   - JavaScript

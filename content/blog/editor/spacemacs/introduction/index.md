@@ -1,5 +1,6 @@
 ---
 title: vim のような emacs のような。spacemacs に入門する
+description: 誰しも自分好みのエディタを持っています。わたしも、、、わたしも、、、わたしも。。。今日から私は spacemacs を使います！！
 date: 2018-11-04 23:21:03
 categories:
   - Editor

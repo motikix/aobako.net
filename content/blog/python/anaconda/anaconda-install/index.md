@@ -1,5 +1,6 @@
 ---
 title: Anaconda を入れて、データサイエンティスト気分を味わう
+description: 機械学習を勉強したい。でも環境構築が大変そう。 そのような方でも Anaconda で簡単に始められます。
 date: 2018-07-07 23:39:55
 categories:
   - Python

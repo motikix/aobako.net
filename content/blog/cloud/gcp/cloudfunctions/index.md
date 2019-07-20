@@ -1,5 +1,6 @@
 ---
 title: GCP Cloud Functions を使ってみる
+description: サーバーレスって素晴らしいと思いませんか？
 date: 2019-02-21 23:21:03
 categories:
   - Cloud
