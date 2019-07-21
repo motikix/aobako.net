@@ -1,3 +1,4 @@
+/* Code highlighting */
 .gatsby-highlight-code-line {
   background-color: #424242;
   display: block;
@@ -7,7 +8,6 @@
   padding-left: 0.75em;
   border-left: 0.25em solid #f99;
 }
-
 .gatsby-highlight {
   background-color: #2d2d2d;
   border-radius: 0.3em;
@@ -15,16 +15,26 @@
   padding: 1em;
   overflow: auto;
 }
-
 .gatsby-highlight pre[class*="language-"] {
   background-color: transparent;
   margin: 0;
   padding: 0;
   overflow: initial;
-  float: left; /* 1 */
-  min-width: 100%; /* 2 */
+  float: left;
+  min-width: 100%;
 }
-
 .gatsby-highlight pre[class*="language-"].line-numbers {
   padding-left: 2.8em;
+}
+
+/* Code title */
+.gatsby-code-title {
+  margin-bottom: -0.6rem;
+  padding: 0.5em 1em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Yu Gothic', YuGothic, Verdana, Meiryo, 'M+ 1p', sans-serif;
+  background-color: black;
+  color: white;
+  z-index: 0;
+  border-top-left-radius: 0.3em;
+  border-top-right-radius: 0.3em;
 }
