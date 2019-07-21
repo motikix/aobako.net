@@ -1,11 +1,15 @@
+const SITE_NAME = 'aobako.net'
+const SITE_SHORT_NAME = 'aobako'
+const SITE_URL = 'https://aobako.net'
+
 module.exports = {
   siteMetadata: {
-    title: `aobako.net`,
+    title: SITE_URL,
     blogTitle: `あおばこ`,
     subtitle: `ゆる〜くやっていくスタイル`,
     author: `syuni`,
     description: `プログラミングやITサービスについてゆる〜く触れている趣味ブログです。`,
-    siteUrl: `https://aobako.net/`,
+    siteUrl: SITE_URL,
     social: {
       github: `syuni`,
       twitter: `motikix`,
@@ -92,15 +96,22 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-117764640-1`,
+      },
+    },
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: SITE_URL,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `aobako.net`,
-        short_name: `aobako`,
+        name: SITE_NAME,
+        short_name: SITE_SHORT_NAME,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
