@@ -6,6 +6,20 @@ Wordpress2016.overrideThemeStyles = () => {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
+    "html,body,h1,h2,h3,h4,h5,h6": {
+      color: `#34495e`,
+      fontFamily: [
+        `-apple-system`,
+        `BlinkMacSystemFont`,
+        `Helvetica Neue`,
+        `"Yu Gothic"`,
+        `YuGothic`,
+        `Verdana`,
+        `Meiryo`,
+        `"M+ 1p"`,
+        `sans-serif`,
+      ].join(','),
+    },
   }
 }
 
