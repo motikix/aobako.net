@@ -29,10 +29,10 @@
 
 /* Code title */
 .gatsby-code-title {
-  margin-bottom: -0.6rem;
+  margin-bottom: -0.7rem;
   padding: 0.5em 1em;
   font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Yu Gothic', YuGothic, Verdana, Meiryo, 'M+ 1p', sans-serif;
-  background-color: black;
+  background-color: #2d2d2d;
   color: white;
   z-index: 0;
   border-top-left-radius: 0.3em;
