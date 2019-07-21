@@ -1,10 +1,13 @@
 // custom typefaces
-import "typeface-montserrat"
-import "typeface-merriweather"
+import 'typeface-montserrat'
+import 'typeface-merriweather'
 
 // import global css
-import "./src/styles/global.css"
+import './src/styles/global.css'
 
 // code highlighting
-import "prismjs/themes/prism-tomorrow.css"
-import "prismjs/plugins/line-numbers/prism-line-numbers.css"
+import 'prismjs/themes/prism-tomorrow.css'
+import 'prismjs/plugins/line-numbers/prism-line-numbers.css'
+
+// katex
+import 'katex/dist/katex.min.css'
