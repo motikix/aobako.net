@@ -4,7 +4,7 @@ const SITE_URL = 'https://aobako.net'
 
 module.exports = {
   siteMetadata: {
-    title: SITE_URL,
+    title: SITE_NAME,
     blogTitle: `あおばこ`,
     subtitle: `ゆる〜くやっていくスタイル`,
     author: `syuni`,
