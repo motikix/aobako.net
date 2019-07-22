@@ -5,14 +5,13 @@ const SITE_URL = 'https://aobako.net'
 module.exports = {
   siteMetadata: {
     title: SITE_NAME,
-    blogTitle: `あおばこ`,
-    subtitle: `ゆる〜くやっていくスタイル`,
+    subtitle: `no code, no life`,
     author: `syuni`,
     description: `プログラミングやITサービスについてゆる〜く触れている趣味ブログです。`,
     siteUrl: SITE_URL,
     social: {
       github: `syuni`,
-      twitter: `motikix`,
+      twitter: `syuni`,
     },
   },
   plugins: [

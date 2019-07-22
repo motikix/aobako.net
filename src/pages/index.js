@@ -9,15 +9,16 @@ class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
+    const subTitle = data.site.siteMetadata.subtitle
     const posts = data.allMarkdownRemark.edges
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title={subTitle} topPage={true} />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <div key={node.fields.slug}>
+            <div key={node.fields.slug} className={ `index` }>
               <h3
                 style={{
                   marginBottom: rhythm(1 / 4),
@@ -48,6 +49,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        subtitle
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
