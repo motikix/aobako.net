@@ -1,5 +1,13 @@
+:root {
+  --color-text: #333333;
+  --color-bg: #f9f9f9;
+  --color-main: #1ec0ff;
+  --color-accent: #0080ff;
+  --color-reduce: #a3daff;
+}
+
 body, html {
-  background-color: #fbfcfa;
+  background-color: var(--color-bg);
 }
 
 img:not(.emoji-icon) {

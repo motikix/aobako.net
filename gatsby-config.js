@@ -90,6 +90,14 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-page-progress`,
+      options: {
+        prependToBody: false,
+        height: 5,
+        color: `#ff7473`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -113,7 +121,7 @@ module.exports = {
         short_name: SITE_SHORT_NAME,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#2b90d9`,
         display: `minimal-ui`,
         icon: `content/assets/aobako.png`,
       },
