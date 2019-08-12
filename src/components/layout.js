@@ -77,7 +77,6 @@ class Layout extends React.Component {
             style={{
               position: `absolute`,
               bottom: `0`,
-              width: `100%`,
               height: `30px`,
             }}>
             © 2017-{new Date().getFullYear()} syuni
