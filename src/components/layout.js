@@ -53,18 +53,36 @@ class Layout extends React.Component {
     }
     return (
       <div
+        className="content-wrapper"
         style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          maxWidth: `100%`,
+          minHeight: `100vh`,
+          position: `relative`,
+          boxSizing: `border-box`
         }}
       >
-        <header>{header}</header>
-        <main>{children}</main>
-        <footer>
-          © 2017-{new Date().getFullYear()} syuni
-        </footer>
+        <div
+          className="content"
+          style={{
+            marginLeft: `auto`,
+            marginRight: `auto`,
+            maxWidth: rhythm(24),
+            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+            paddingBottom: `60px`,
+          }}
+        >
+          <header>{header}</header>
+          <main>{children}</main>
+          <footer
+            style={{
+              position: `absolute`,
+              bottom: `0`,
+              width: `100%`,
+              height: `30px`,
+            }}>
+            © 2017-{new Date().getFullYear()} syuni
+          </footer>
+        </div>
       </div>
     )
   }
