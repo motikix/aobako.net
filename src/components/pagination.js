@@ -30,7 +30,7 @@ export default class Pagination extends React.Component {
       }}>
         <div css={counter} ref={this.counter}>{index + 1} / {total}</div>
         <button data-state={isFirst ? 'disabled' : ''} css={css`${left}`} ref={this.pl} onClick={() => !isFirst ? navigate(previousPagePath) : null}><i></i><i></i></button>
-        <button data-state={index === total - 1 ? 'disabled' : ''} css={css`${right}`} ref={this.pr} onClick={() => !isLast ? navigate(nextPagePath) : null}><i></i><i></i></button>
+        <button data-state={isLast ? 'disabled' : ''} css={css`${right}`} ref={this.pr} onClick={() => !isLast ? navigate(nextPagePath) : null}><i></i><i></i></button>
       </div>
     )
   }
