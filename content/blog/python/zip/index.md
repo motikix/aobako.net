@@ -3,7 +3,7 @@ title: (備忘) よくわすれる zip
 description: リストを合成するときに便利な zip 関数．
 date: 2019-08-31 01:20:00
 categories:
-  - Python
+  - python
 tags:
   - python
 ---

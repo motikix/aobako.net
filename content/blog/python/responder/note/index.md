@@ -3,8 +3,7 @@ title: Responder + gunicorn 構成でハマったところメモ
 description: マニュアルをちゃんと読めば回避できた
 date: 2020-03-16 21:48
 categories:
-  - Python
-  - Responder
+  - python
 tags:
   - python
   - responder

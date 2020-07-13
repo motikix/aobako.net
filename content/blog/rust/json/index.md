@@ -3,7 +3,7 @@ title: Rust で json を扱う
 description: データのやりとりでデファクトスタンダードな json を Rust で取り扱う．
 date: 2019-09-16 01:42:00
 categories:
-  - Rust
+  - rust
 tags:
   - rust
   - json

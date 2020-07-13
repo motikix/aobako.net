@@ -3,8 +3,7 @@ title: eslint & prettier で javascript のコードを常にきれいに
 description: チーム開発におけるコードの構文チェッカの eslint 。フォーマッタの prettier の導入方法について触れてみます。
 date: 2018-07-24 01:24:36
 categories:
-  - JavaScript
-  - Code
+  - javascript
 tags:
   - javascript
   - linter
@@ -42,7 +41,7 @@ $ cd ~/js-code-quality
 ディレクトリに移動後、以下のコマンドを実行し、プロジェクトを作成します。（パッケージ管理に yarn を使用していますが、npm を使用しているかたは適宜読み替えるようにお願いします）
 
 ```bash
-    $ yarn init -y
+$ yarn init -y
 ```
 
 package.json が作成されていれば成功です。

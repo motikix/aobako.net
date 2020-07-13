@@ -3,8 +3,7 @@ title: これから Python で Web アプリを作るなら Responder なのか�
 description: 新鋭の PythonWeb フレームワーク `Responder` を使いこなして、爆速 Web アプリケーション開発。
 date: 2018-12-26 01:05:38
 categories:
-  - Python
-  - Responder
+  - python
 tags:
   - python
   - responder

@@ -3,11 +3,11 @@ title: GCP Cloud Functions を使ってみる
 description: サーバーレスって素晴らしいと思いませんか？
 date: 2019-02-21 23:21:03
 categories:
-  - Cloud
-  - GCP
+  - cloud
 tags:
-  - cloud functions
+  - cloud
   - gcp
+  - cloud functions
 ---
 
 普段は AWS を利用していますが、GCP を触る機会がてできそうなので、少しずつ覚えていこうと思います。まずは理解が簡単そうな `Cloud Functions` から触ってみます。

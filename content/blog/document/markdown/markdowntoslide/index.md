@@ -3,11 +3,11 @@ title: pandoc と revealjs で markdown によるスライド作成環境を作�
 description: スライド作成するの面倒じゃないですか？Markdown で書けたら超絶便利ですよね！
 date: 2018-08-12 22:18:35
 categories:
-  - Document
-  - Markdown
+  - document
 tags:
-  - slide
+  - document
   - markdown
+  - slide
   - pandoc
   - reveal.js
 ---

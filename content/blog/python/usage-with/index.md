@@ -3,7 +3,7 @@ title: Python における with 文の使用方法
 description: Python には便利な言語仕様がたくさんあります。今回はコンテキストマネージャによって制御される with 文について触ってみました。
 date: 2019-03-21 23:07:00
 categories:
-  - Python
+  - python
 tags:
   - python
 ---

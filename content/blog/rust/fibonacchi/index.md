@@ -3,7 +3,7 @@ title: Rust でフィボナッチ
 description: 今更フィボナッチ！？とか言わない。
 date: 2019-10-20 22:54:00
 categories:
-  - Rust
+  - rust
 tags:
   - rust
   - fibonacci

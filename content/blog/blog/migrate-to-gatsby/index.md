@@ -5,6 +5,7 @@ date: 2019-07-21
 categories:
   - blog
 tags:
+  - blog
   - gatsby
   - netlify
 ---
