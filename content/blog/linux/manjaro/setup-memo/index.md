@@ -61,7 +61,7 @@ Manjaro に限った話ではないのだが、いつもセットアップまわ
 
 ## メモ
 
-dconf で何かやったような着もするがあまり覚えてない…。
+dconf で何かやったような気もするがあまり覚えてない…。
 
 ### CapsLock を Control キーにする
 
@@ -98,3 +98,9 @@ macOS 時は Google 日本語入力を使用しており、Karabiner-Elements �
 ### タッチパッドでブラウザバックやピンチできるようにする
 
 `libinput-gestures` でやる。
+
+### ファンクションキーを単独で認識させる
+
+Mac 限定？自分は MacBook Pro に Linux インストールしており、Mac のキーボードは fn キーと F1-F12 を同時に押すことでファンクションキーとして認識される。そこまでファンクションキーは使っていないが気持ち悪いので変更しておく。
+
+`/etc/modprobe.d/hid_apple.conf` というファイルを作成し、これに `options hid_apple fnmode=2` を書いて再起動すれば OK。
