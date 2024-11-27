@@ -6,12 +6,12 @@ module.exports = {
   siteMetadata: {
     title: SITE_NAME,
     subtitle: `no code, no life`,
-    author: `syuni`,
+    author: `motikix`,
     description: `プログラミングやITサービスについてゆる〜く触れている趣味ブログです。`,
     siteUrl: SITE_URL,
     social: {
-      github: `syuni`,
-      twitter: `syuni`,
+      github: `motikix`,
+      twitter: `motikix`,
     },
   },
   plugins: [
