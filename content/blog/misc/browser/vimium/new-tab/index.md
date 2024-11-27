@@ -1,6 +1,6 @@
 ---
 title: vimium 入れたときにちょっとやったこと
-date: 2024-11-21 22:00
+date: 2024-11-27 19:45
 categories:
   - misc
 tags:
